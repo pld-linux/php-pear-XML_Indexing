@@ -27,7 +27,7 @@ local XML files.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Ten pakiet dostarcza wsparcia dla indeksowania plikó³ XML. Wspomaga
+Ten pakiet dostarcza wsparcia dla indeksowania plików XML. Wspomaga
 tworzenie i u¿ywanie tego typu indeksów w celu zmniejszenia czasu
 dostêpu do lokalnych plików XML.
 
