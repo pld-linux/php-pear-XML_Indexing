@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - XML Indexing support
-Summary(pl.UTF-8):   %{_pearname} - wsparcie dla indeksowania XML
+Summary(pl.UTF-8):	%{_pearname} - wsparcie dla indeksowania XML
 Name:		php-pear-%{_pearname}
 Version:	0.3.6
 Release:	1
