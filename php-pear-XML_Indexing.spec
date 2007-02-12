@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - XML Indexing support
-Summary(pl):	%{_pearname} - wsparcie dla indeksowania XML
+Summary(pl.UTF-8):   %{_pearname} - wsparcie dla indeksowania XML
 Name:		php-pear-%{_pearname}
 Version:	0.3.6
 Release:	1
@@ -36,10 +36,10 @@ local XML files.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza wsparcia dla indeksowania plików XML. Wspomaga
-tworzenie i u¿ywanie tego typu indeksów w celu zmniejszenia czasu
-dostêpu do lokalnych plików XML.
+%description -l pl.UTF-8
+Ten pakiet dostarcza wsparcia dla indeksowania plikÃ³w XML. Wspomaga
+tworzenie i uÅ¼ywanie tego typu indeksÃ³w w celu zmniejszenia czasu
+dostÄ™pu do lokalnych plikÃ³w XML.
 
 Ta klasa ma w PEAR status: %{_status}.
 
