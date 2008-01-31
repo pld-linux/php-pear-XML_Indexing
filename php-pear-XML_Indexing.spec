@@ -8,7 +8,7 @@ Summary:	%{_pearname} - XML Indexing support
 Summary(pl.UTF-8):	%{_pearname} - wsparcie dla indeksowania XML
 Name:		php-pear-%{_pearname}
 Version:	0.3.6
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
