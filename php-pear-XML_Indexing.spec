@@ -4,11 +4,10 @@
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - XML Indexing support
 Summary(pl.UTF-8):	%{_pearname} - wsparcie dla indeksowania XML
 Name:		php-pear-%{_pearname}
 Version:	0.3.6
-Release:	2
+Release:	3
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -23,6 +22,8 @@ Requires:	php-pear-File >= 1.0.3
 Requires:	php-pear-PEAR-core >= 1:1.2
 Requires:	php-pear-XML_Serializer >= 0.13.0
 Requires:	php-pear-XML_XPath >= 1.2.1
+Suggests:	php-pear-Benchmark >= 1.2.1
+Suggests:	php-pear-Console_Table >= 1.0.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
